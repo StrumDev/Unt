@@ -1,6 +1,8 @@
 # Unt -> User Network Transport
 
-UDP Network with support for reliable sending
+UDP Networking with support for reliable and unreliable channels, in pure C#, can be used in both Unity and console applications.
+
+This is the first version of this solution.
 
 I've only been learning C# for 1 year and this is my first project that I like to develop.
 
