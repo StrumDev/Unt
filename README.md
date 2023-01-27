@@ -5,8 +5,8 @@ UDP Network with support for reliable sending
 I've only been learning C# for 1 year and this is my first project that I like to develop.
 
 # Documentation
-  Methods NetServer!
-    Start("port") Starts the server to receive and send data.
+  !Methods NetServer!
+    !Start("port") Starts the server to receive and send data.
     Stop() Stops processing of all data.
     Send("array byte", "length byte array", "sending type, (false = Unreliable)/(true = Reliable)", "where to send") Send to, packet.
     SendAll("array byte", "length byte array", "sending type, (false = Unreliable)/(true = Reliable)", "skip client") Send to all, packet.
