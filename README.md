@@ -1,4 +1,4 @@
-# Unt -> User Network Transport
+# User Network Transport
 
 UDP Networking with support for reliable and unreliable channels, in pure C#, can be used in both Unity and console applications.
 
