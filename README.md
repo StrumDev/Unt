@@ -8,7 +8,7 @@ I've only been learning C# for 1 year and this is my first project that I like t
 
 Directory namespace Unt
 
-  Methods NetServer!
+  Methods Class NetServer!
   
     Start("port") Starts the server to receive and send data.
     Stop() Stops processing of all data.
@@ -17,7 +17,7 @@ Directory namespace Unt
     AddAction(() => "action"()) Add, an action to a queue, to be executed in another thread.    
     Tick() Perform all actions in the queue.
     
-  Properties NetServer!
+  Properties Class NetServer!
   
     OnClientConnected(EndPoint) When a new client connects.
     OnClientDisconnected(EndPoint) When a client disconnects.
@@ -25,7 +25,7 @@ Directory namespace Unt
     TimeOutClient Client idle time ms. after which the client will be disconnected.
     IsRuning If data is being processed
     
-  Methods NetClient!
+  Methods Class NetClient!
   
     Connect("ipAddress", "port") Connect to the server and start to receive and send data.
     Disconnect("(false = Unreliable)/(true = Reliable)") Disconnect from the serverю.    
@@ -34,7 +34,7 @@ Directory namespace Unt
     AddAction(() => "action"()) Add, an action to a queue, to be executed in another thread.    
     Tick() Perform all actions in the queue.
     
-  Properties NetClient!
+  Properties Class NetClient!
   
     OnConnected() When a new client connects.   
     OnDisconnected() When a client disconnects.   
