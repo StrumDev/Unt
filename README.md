@@ -6,7 +6,7 @@ I've only been learning C# for 1 year and this is my first project that I like t
 
 # Documentation
 
-directory namespace Unt
+Directory namespace Unt
 
   Methods NetServer!
   
