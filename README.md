@@ -15,7 +15,7 @@ Directory namespace Unt
     Start("port") Starts the server to receive and send data.
     Stop() Stops processing of all data.
     Send("array byte", "length byte array", "sending type, (false = Unreliable)/(true = Reliable)", "where to send") Send to, packet.
-    SendAll("array byte", "length byte array", "sending type, (false = Unreliable)/(true = Reliable)", "skip client") Send to all, packet.   
+    SendAll("array byte", "length byte array", "sending type, (false = Unreliable)/(true = Reliable)", "skip client") Send to all, packet.
     AddAction(() => "action"()) Add, an action to a queue, to be executed in another thread.    
     Tick() Perform all actions in the queue.
     
@@ -26,6 +26,7 @@ Directory namespace Unt
     OnHandler(byte[], int, bool, EndPoint) Received packet.
     TimeOutClient Client idle time ms. after which the client will be disconnected.
     IsRuning If data is being processed
+    IsTick = "true" If you need to call an action in another thread;
     
   Methods Class NetClient!
   
@@ -42,7 +43,8 @@ Directory namespace Unt
     OnDisconnected() When a client disconnects.   
     OnHandler(byte[], int, bool, EndPoint) Received packet.    
     TimeOutServer Server idle time ms. after which the client will be disconnected.   
-    IsRuning If data is being processed    
+    IsRuning If data is being processed
+    IsTick = "true" If you need to call an action in another thread;
     Status Client status   
     Ping The time of the road here and there
     
