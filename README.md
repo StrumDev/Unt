@@ -6,6 +6,8 @@ This is the first version of this solution.
 
 I've only been learning C# for 1 year and this is my first project that I like to develop.
 
+Discord: https://discord.gg/x2yUKGmfgY
+
 # Documentation
 
 Directory namespace Unt
