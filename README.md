@@ -33,7 +33,7 @@ Directory namespace Unt
   Methods Class NetClient!
   
     Connect("ipAddress", "port") Connect to the server and start to receive and send data.
-    Disconnect("(false = Unreliable)/(true = Reliable)") Disconnect from the serverю.    
+    Disconnect("(false = Unreliable)/(true = Reliable)") Disconnect from the server.    
     Stop() Stops processing of all data.    
     Send("array byte", "length byte array", "sending type, (false = Unreliable)/(true = Reliable)") Send to, packet.    
     AddAction(() => "action"()) Add, an action to a queue, to be executed in another thread.    
